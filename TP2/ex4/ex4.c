@@ -15,7 +15,8 @@ int main()
             counter++;
         }
     } while (a != -1);
-    moyenne = somme / counter;
+    if (counter != 0)
+        moyenne = somme / counter;
     printf("La moyenne de ces 3 entiers vaut %f", moyenne);
     return 0;
 }

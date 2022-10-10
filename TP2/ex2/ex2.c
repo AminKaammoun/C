@@ -47,9 +47,7 @@ int main()
                 counter++;
                 
             }
-            
         }
-     
         if(counter == 0)
         {
             printf("%d ", num);
